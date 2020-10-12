@@ -1,0 +1,14 @@
+//
+// Created by gabri on 27/09/2020.
+//
+
+#ifndef HEURISTICOPTIMIZATION_TSP_H
+#define HEURISTICOPTIMIZATION_TSP_H
+
+
+class TSP {
+
+};
+
+
+#endif //HEURISTICOPTIMIZATION_TSP_H

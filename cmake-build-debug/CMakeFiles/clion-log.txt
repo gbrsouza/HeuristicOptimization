@@ -1,0 +1,52 @@
+"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\gabri\OneDrive\Área de Trabalho\codigos\HeuristicOptimization"
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/MinGW/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/gabri/OneDrive/Ã�rea de Trabalho/codigos/HeuristicOptimization/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_86fca/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_86fca.dir\build.make CMakeFiles/cmTC_86fca.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/Users/gabri/OneDrive/â”´rea de Trabalho/codigos/HeuristicOptimization/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_86fca.dir/testCCompiler.c.obj
+    C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_86fca.dir\testCCompiler.c.obj   -c "C:\Users\gabri\OneDrive\â”œÃ¼rea de Trabalho\codigos\HeuristicOptimization\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+    gcc.exe: error: C:\Users\gabri\OneDrive\+Â³rea de Trabalho\codigos\HeuristicOptimization\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    CMakeFiles\cmTC_86fca.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_86fca.dir/testCCompiler.c.obj' failed
+    mingw32-make.exe[1]: *** [CMakeFiles/cmTC_86fca.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'C:/Users/gabri/OneDrive/â”´rea de Trabalho/codigos/HeuristicOptimization/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:120: recipe for target 'cmTC_86fca/fast' failed
+    mingw32-make.exe: *** [cmTC_86fca/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/gabri/OneDrive/Ã�rea de Trabalho/codigos/HeuristicOptimization/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/gabri/OneDrive/Ã�rea de Trabalho/codigos/HeuristicOptimization/cmake-build-debug/CMakeFiles/CMakeError.log".
