@@ -69,31 +69,31 @@ CMakeFiles/Module1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Module1.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\main.cpp -o CMakeFiles\Module1.dir\main.cpp.s
 
-CMakeFiles/Module1.dir/algorithm/TSP.cpp.obj: CMakeFiles/Module1.dir/flags.make
-CMakeFiles/Module1.dir/algorithm/TSP.cpp.obj: ../algorithm/TSP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Module1.dir/algorithm/TSP.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Module1.dir\algorithm\TSP.cpp.obj -c C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\algorithm\TSP.cpp
+CMakeFiles/Module1.dir/problem/TSP.cpp.obj: CMakeFiles/Module1.dir/flags.make
+CMakeFiles/Module1.dir/problem/TSP.cpp.obj: ../problem/TSP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Module1.dir/problem/TSP.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Module1.dir\problem\TSP.cpp.obj -c C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\problem\TSP.cpp
 
-CMakeFiles/Module1.dir/algorithm/TSP.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Module1.dir/algorithm/TSP.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\algorithm\TSP.cpp > CMakeFiles\Module1.dir\algorithm\TSP.cpp.i
+CMakeFiles/Module1.dir/problem/TSP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Module1.dir/problem/TSP.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\problem\TSP.cpp > CMakeFiles\Module1.dir\problem\TSP.cpp.i
 
-CMakeFiles/Module1.dir/algorithm/TSP.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Module1.dir/algorithm/TSP.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\algorithm\TSP.cpp -o CMakeFiles\Module1.dir\algorithm\TSP.cpp.s
+CMakeFiles/Module1.dir/problem/TSP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Module1.dir/problem/TSP.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\problem\TSP.cpp -o CMakeFiles\Module1.dir\problem\TSP.cpp.s
 
-CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.obj: CMakeFiles/Module1.dir/flags.make
-CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.obj: ../algorithm/TSPReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Module1.dir\algorithm\TSPReader.cpp.obj -c C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\algorithm\TSPReader.cpp
+CMakeFiles/Module1.dir/problem/TSPReader.cpp.obj: CMakeFiles/Module1.dir/flags.make
+CMakeFiles/Module1.dir/problem/TSPReader.cpp.obj: ../problem/TSPReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Module1.dir/problem/TSPReader.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Module1.dir\problem\TSPReader.cpp.obj -c C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\problem\TSPReader.cpp
 
-CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\algorithm\TSPReader.cpp > CMakeFiles\Module1.dir\algorithm\TSPReader.cpp.i
+CMakeFiles/Module1.dir/problem/TSPReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Module1.dir/problem/TSPReader.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\problem\TSPReader.cpp > CMakeFiles\Module1.dir\problem\TSPReader.cpp.i
 
-CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\algorithm\TSPReader.cpp -o CMakeFiles\Module1.dir\algorithm\TSPReader.cpp.s
+CMakeFiles/Module1.dir/problem/TSPReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Module1.dir/problem/TSPReader.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\problem\TSPReader.cpp -o CMakeFiles\Module1.dir\problem\TSPReader.cpp.s
 
 CMakeFiles/Module1.dir/util/Splitter.cpp.obj: CMakeFiles/Module1.dir/flags.make
 CMakeFiles/Module1.dir/util/Splitter.cpp.obj: ../util/Splitter.cpp
@@ -108,25 +108,55 @@ CMakeFiles/Module1.dir/util/Splitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Module1.dir/util/Splitter.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\util\Splitter.cpp -o CMakeFiles\Module1.dir\util\Splitter.cpp.s
 
+CMakeFiles/Module1.dir/heuristic/LHK.cpp.obj: CMakeFiles/Module1.dir/flags.make
+CMakeFiles/Module1.dir/heuristic/LHK.cpp.obj: ../heuristic/LHK.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Module1.dir/heuristic/LHK.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Module1.dir\heuristic\LHK.cpp.obj -c C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\heuristic\LHK.cpp
+
+CMakeFiles/Module1.dir/heuristic/LHK.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Module1.dir/heuristic/LHK.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\heuristic\LHK.cpp > CMakeFiles\Module1.dir\heuristic\LHK.cpp.i
+
+CMakeFiles/Module1.dir/heuristic/LHK.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Module1.dir/heuristic/LHK.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\heuristic\LHK.cpp -o CMakeFiles\Module1.dir\heuristic\LHK.cpp.s
+
+CMakeFiles/Module1.dir/heuristic/Grasp.cpp.obj: CMakeFiles/Module1.dir/flags.make
+CMakeFiles/Module1.dir/heuristic/Grasp.cpp.obj: ../heuristic/Grasp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Module1.dir/heuristic/Grasp.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Module1.dir\heuristic\Grasp.cpp.obj -c C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\heuristic\Grasp.cpp
+
+CMakeFiles/Module1.dir/heuristic/Grasp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Module1.dir/heuristic/Grasp.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\heuristic\Grasp.cpp > CMakeFiles\Module1.dir\heuristic\Grasp.cpp.i
+
+CMakeFiles/Module1.dir/heuristic/Grasp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Module1.dir/heuristic/Grasp.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\heuristic\Grasp.cpp -o CMakeFiles\Module1.dir\heuristic\Grasp.cpp.s
+
 # Object files for target Module1
 Module1_OBJECTS = \
 "CMakeFiles/Module1.dir/main.cpp.obj" \
-"CMakeFiles/Module1.dir/algorithm/TSP.cpp.obj" \
-"CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.obj" \
-"CMakeFiles/Module1.dir/util/Splitter.cpp.obj"
+"CMakeFiles/Module1.dir/problem/TSP.cpp.obj" \
+"CMakeFiles/Module1.dir/problem/TSPReader.cpp.obj" \
+"CMakeFiles/Module1.dir/util/Splitter.cpp.obj" \
+"CMakeFiles/Module1.dir/heuristic/LHK.cpp.obj" \
+"CMakeFiles/Module1.dir/heuristic/Grasp.cpp.obj"
 
 # External object files for target Module1
 Module1_EXTERNAL_OBJECTS =
 
 Module1.exe: CMakeFiles/Module1.dir/main.cpp.obj
-Module1.exe: CMakeFiles/Module1.dir/algorithm/TSP.cpp.obj
-Module1.exe: CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.obj
+Module1.exe: CMakeFiles/Module1.dir/problem/TSP.cpp.obj
+Module1.exe: CMakeFiles/Module1.dir/problem/TSPReader.cpp.obj
 Module1.exe: CMakeFiles/Module1.dir/util/Splitter.cpp.obj
+Module1.exe: CMakeFiles/Module1.dir/heuristic/LHK.cpp.obj
+Module1.exe: CMakeFiles/Module1.dir/heuristic/Grasp.cpp.obj
 Module1.exe: CMakeFiles/Module1.dir/build.make
 Module1.exe: CMakeFiles/Module1.dir/linklibs.rsp
 Module1.exe: CMakeFiles/Module1.dir/objects1.rsp
 Module1.exe: CMakeFiles/Module1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Module1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\gabri\Documents\codigos\HeuristicOptimization\Module1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Module1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Module1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

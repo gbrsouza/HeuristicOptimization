@@ -80,19 +80,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/algorithm/TSP.cpp">
+		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/heuristic/Grasp.cpp">
 			<Option target="Module1"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/algorithm/TSP.h">
+		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/heuristic/Grasp.h">
 			<Option target="Module1"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/algorithm/TSPReader.cpp">
+		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/heuristic/LHK.cpp">
 			<Option target="Module1"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/algorithm/TSPReader.h">
+		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/heuristic/LHK.h">
 			<Option target="Module1"/>
 		</Unit>
 		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/main.cpp">
+			<Option target="Module1"/>
+		</Unit>
+		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/problem/TSP.cpp">
+			<Option target="Module1"/>
+		</Unit>
+		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/problem/TSP.h">
+			<Option target="Module1"/>
+		</Unit>
+		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/problem/TSPReader.cpp">
+			<Option target="Module1"/>
+		</Unit>
+		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/problem/TSPReader.h">
 			<Option target="Module1"/>
 		</Unit>
 		<Unit filename="C:/Users/gabri/Documents/codigos/HeuristicOptimization/Module1/util/Splitter.cpp">

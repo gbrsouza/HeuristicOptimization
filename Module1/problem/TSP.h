@@ -31,6 +31,8 @@ public:
 
     unsigned int getDimension() const;
 
+    void update_solution_to_random_solution();
+
     void setDimension(unsigned int dimension);
 
     int *getBestSolution() const;
@@ -58,7 +60,14 @@ public:
     bool isValidSolution(std::vector<int> solution);
 
     int costOfSolution (const int *solution);
+    int costOfSolution (const std::vector<int> &solution);
 
+    int getEdgeCost (const int a, const int b);
+
+    int costOfPartialSolution(const int partialSolution[], int size);
+
+
+    void setBestSolution(std::vector<int> newBestSolution);
 };
 
 

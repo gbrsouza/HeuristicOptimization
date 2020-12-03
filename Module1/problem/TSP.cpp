@@ -34,6 +34,13 @@ void TSP::setBestSolution(int *newBestSolution) {
     this->bestSolution = newBestSolution;
 }
 
+void TSP::setBestSolution(std::vector<int> newBestSolution) {
+    for(int i=0; i<this->sizeSolution; i++){
+        bestSolution[i] = newBestSolution[i];
+    }
+    bestCost = costOfSolution(newBestSolution);
+}
+
 bool TSP::isValidSolution(const std::vector<int> solution){
     int *tmpSolution = static_cast<int *>(malloc(sizeof(int) * solution.size()));
     for (int i=0; i<solution.size();i++)
@@ -99,9 +106,8 @@ int *TSP::getBestSolution() const {
     return bestSolution;
 }
 
-void TSP::setBestSolution1(int *bestSolution) {
-    TSP::bestSolution = bestSolution;
-}
+
+
 
 int TSP::getBestCost() const {
     return bestCost;
@@ -128,19 +134,44 @@ std::ostream &operator<<(std::ostream &os, const TSP &tsp) {
     for (auto i=0; i<tsp.sizeSolution; i++)
         os << tsp.bestSolution[i] << " ";
 
-    os << "\n bestCost: " << tsp.bestCost << "\n data: \n";
-    for (auto i=0; i<tsp.dimension; i++){
-        for (auto j=0; j<tsp.dimension; j++)
-            os << tsp.data[i][j] << " ";
-        os << " \n";
-    }
+    os << "\n bestCost: " << tsp.bestCost << "\n";
+//    for (auto i=0; i<tsp.dimension; i++){
+//        for (auto j=0; j<tsp.dimension; j++)
+//            os << tsp.data[i][j] << " ";
+//        os << " \n";
+//    }
     return os;
 }
 
 int TSP::costOfSolution(const int *solution) {
     int cost = 0;
-    for (int i=0; i<this->sizeSolution-1; i++)
-        cost += this->data[i][i+1];
+    for (int i=0; i<this->sizeSolution-1; i++) {
+        cost += this->data[solution[i]][solution[i + 1]];
+    }
+
     return cost;
 }
+
+int TSP::costOfPartialSolution(const int partialSolution[], int size){
+    int cost = 0;
+    for (int i=0; i<size-1; i++){
+        cost += this->data[partialSolution[i]][partialSolution[i+1]];
+    }
+
+    return cost;
+}
+
+int TSP::getEdgeCost(const int a, const int b) {
+    return data[a][b];
+}
+
+int TSP::costOfSolution(const std::vector<int> &solution) {
+    int cost = 0;
+    for (int i=0; i<this->sizeSolution-1; i++) {
+        cost += this->data[solution[i]][solution[i + 1]];
+    }
+
+    return cost;
+}
+
 

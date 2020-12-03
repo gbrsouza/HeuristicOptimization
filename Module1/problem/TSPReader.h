@@ -9,6 +9,18 @@
 #include <string>
 #include "TSP.h"
 
+struct EuclideanNode{
+    int id;
+    float x;
+    float y;
+
+    EuclideanNode(int id, float x, float y);
+
+    static int calcCostEdge(const EuclideanNode& a, const EuclideanNode& b);
+
+    virtual ~EuclideanNode();
+};
+
 class TSPReader {
 
 public:

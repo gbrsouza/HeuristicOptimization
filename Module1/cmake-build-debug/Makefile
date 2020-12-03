@@ -122,59 +122,59 @@ Module1/fast:
 	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/build
 .PHONY : Module1/fast
 
-algorithm/TSP.obj: algorithm/TSP.cpp.obj
+heuristic/Grasp.obj: heuristic/Grasp.cpp.obj
 
-.PHONY : algorithm/TSP.obj
-
-# target to build an object file
-algorithm/TSP.cpp.obj:
-	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/algorithm/TSP.cpp.obj
-.PHONY : algorithm/TSP.cpp.obj
-
-algorithm/TSP.i: algorithm/TSP.cpp.i
-
-.PHONY : algorithm/TSP.i
-
-# target to preprocess a source file
-algorithm/TSP.cpp.i:
-	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/algorithm/TSP.cpp.i
-.PHONY : algorithm/TSP.cpp.i
-
-algorithm/TSP.s: algorithm/TSP.cpp.s
-
-.PHONY : algorithm/TSP.s
-
-# target to generate assembly for a file
-algorithm/TSP.cpp.s:
-	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/algorithm/TSP.cpp.s
-.PHONY : algorithm/TSP.cpp.s
-
-algorithm/TSPReader.obj: algorithm/TSPReader.cpp.obj
-
-.PHONY : algorithm/TSPReader.obj
+.PHONY : heuristic/Grasp.obj
 
 # target to build an object file
-algorithm/TSPReader.cpp.obj:
-	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.obj
-.PHONY : algorithm/TSPReader.cpp.obj
+heuristic/Grasp.cpp.obj:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/heuristic/Grasp.cpp.obj
+.PHONY : heuristic/Grasp.cpp.obj
 
-algorithm/TSPReader.i: algorithm/TSPReader.cpp.i
+heuristic/Grasp.i: heuristic/Grasp.cpp.i
 
-.PHONY : algorithm/TSPReader.i
+.PHONY : heuristic/Grasp.i
 
 # target to preprocess a source file
-algorithm/TSPReader.cpp.i:
-	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.i
-.PHONY : algorithm/TSPReader.cpp.i
+heuristic/Grasp.cpp.i:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/heuristic/Grasp.cpp.i
+.PHONY : heuristic/Grasp.cpp.i
 
-algorithm/TSPReader.s: algorithm/TSPReader.cpp.s
+heuristic/Grasp.s: heuristic/Grasp.cpp.s
 
-.PHONY : algorithm/TSPReader.s
+.PHONY : heuristic/Grasp.s
 
 # target to generate assembly for a file
-algorithm/TSPReader.cpp.s:
-	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/algorithm/TSPReader.cpp.s
-.PHONY : algorithm/TSPReader.cpp.s
+heuristic/Grasp.cpp.s:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/heuristic/Grasp.cpp.s
+.PHONY : heuristic/Grasp.cpp.s
+
+heuristic/LHK.obj: heuristic/LHK.cpp.obj
+
+.PHONY : heuristic/LHK.obj
+
+# target to build an object file
+heuristic/LHK.cpp.obj:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/heuristic/LHK.cpp.obj
+.PHONY : heuristic/LHK.cpp.obj
+
+heuristic/LHK.i: heuristic/LHK.cpp.i
+
+.PHONY : heuristic/LHK.i
+
+# target to preprocess a source file
+heuristic/LHK.cpp.i:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/heuristic/LHK.cpp.i
+.PHONY : heuristic/LHK.cpp.i
+
+heuristic/LHK.s: heuristic/LHK.cpp.s
+
+.PHONY : heuristic/LHK.s
+
+# target to generate assembly for a file
+heuristic/LHK.cpp.s:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/heuristic/LHK.cpp.s
+.PHONY : heuristic/LHK.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -202,6 +202,60 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+problem/TSP.obj: problem/TSP.cpp.obj
+
+.PHONY : problem/TSP.obj
+
+# target to build an object file
+problem/TSP.cpp.obj:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/problem/TSP.cpp.obj
+.PHONY : problem/TSP.cpp.obj
+
+problem/TSP.i: problem/TSP.cpp.i
+
+.PHONY : problem/TSP.i
+
+# target to preprocess a source file
+problem/TSP.cpp.i:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/problem/TSP.cpp.i
+.PHONY : problem/TSP.cpp.i
+
+problem/TSP.s: problem/TSP.cpp.s
+
+.PHONY : problem/TSP.s
+
+# target to generate assembly for a file
+problem/TSP.cpp.s:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/problem/TSP.cpp.s
+.PHONY : problem/TSP.cpp.s
+
+problem/TSPReader.obj: problem/TSPReader.cpp.obj
+
+.PHONY : problem/TSPReader.obj
+
+# target to build an object file
+problem/TSPReader.cpp.obj:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/problem/TSPReader.cpp.obj
+.PHONY : problem/TSPReader.cpp.obj
+
+problem/TSPReader.i: problem/TSPReader.cpp.i
+
+.PHONY : problem/TSPReader.i
+
+# target to preprocess a source file
+problem/TSPReader.cpp.i:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/problem/TSPReader.cpp.i
+.PHONY : problem/TSPReader.cpp.i
+
+problem/TSPReader.s: problem/TSPReader.cpp.s
+
+.PHONY : problem/TSPReader.s
+
+# target to generate assembly for a file
+problem/TSPReader.cpp.s:
+	$(MAKE) -f CMakeFiles\Module1.dir\build.make CMakeFiles/Module1.dir/problem/TSPReader.cpp.s
+.PHONY : problem/TSPReader.cpp.s
 
 util/Splitter.obj: util/Splitter.cpp.obj
 
@@ -239,15 +293,21 @@ help:
 	@echo ... Module1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithm/TSP.obj
-	@echo ... algorithm/TSP.i
-	@echo ... algorithm/TSP.s
-	@echo ... algorithm/TSPReader.obj
-	@echo ... algorithm/TSPReader.i
-	@echo ... algorithm/TSPReader.s
+	@echo ... heuristic/Grasp.obj
+	@echo ... heuristic/Grasp.i
+	@echo ... heuristic/Grasp.s
+	@echo ... heuristic/LHK.obj
+	@echo ... heuristic/LHK.i
+	@echo ... heuristic/LHK.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... problem/TSP.obj
+	@echo ... problem/TSP.i
+	@echo ... problem/TSP.s
+	@echo ... problem/TSPReader.obj
+	@echo ... problem/TSPReader.i
+	@echo ... problem/TSPReader.s
 	@echo ... util/Splitter.obj
 	@echo ... util/Splitter.i
 	@echo ... util/Splitter.s
